@@ -33,7 +33,7 @@ function Carrinho() {
         />
       ))}
       <PagamentoContainer>
-        <InputLabel> Forma de Pagamento </InputLabel>
+        <InputLabel> Formas de Pagamento </InputLabel>
         <Select
           value={formaPagamento.id}
           onChange={(event) => mudarFormaDePagamento(event.target.value)}
